@@ -12,6 +12,6 @@ task :deploy do
   system "rsync -ave ssh --delete output/* telana.com:/www/dipert.org/subdomains/interlock"
 end
 
-task :build => [:compile, :copy_assets ]
+task :build => [:compile, :copy_assets]
 task :deploy => [:build]
 task :default => :build
