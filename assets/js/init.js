@@ -10,9 +10,9 @@ $(document).ready(function() {
   /*Bring in the latest 3 tweets*/
   $("#twitter_feed").tweet({
     /*username: "interlockroc",*/
-    username: "superpants5000",
+    username: "emmangoldstein",
     join_text: "auto",
-    count: 3,
+    count: 5,
     /*avatar_size: "32",*/
     auto_join_text_default: "", 
     auto_join_text_ed: "",

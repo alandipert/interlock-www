@@ -9,7 +9,7 @@ task :compile do
 end
 
 task :deploy do
-  system "rsync -ave ssh --delete output/* telana.com:/www/dipert.org/subdomains/interlock"
+  system "rsync -ave ssh --delete output/* rochack@interlockroc.org:~/interlockroc.org"
 end
 
 task :build => [:compile, :copy_assets]
